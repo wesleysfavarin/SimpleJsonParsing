@@ -12,6 +12,7 @@
 		04405C4C2222AE85008D276B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04405C4A2222AE85008D276B /* Main.storyboard */; };
 		04405C4E2222AE88008D276B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04405C4D2222AE88008D276B /* Assets.xcassets */; };
 		04405C512222AE88008D276B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04405C4F2222AE88008D276B /* LaunchScreen.storyboard */; };
+		04405C5A2222AF17008D276B /* JsonParsinData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04405C592222AF17008D276B /* JsonParsinData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		04405C4D2222AE88008D276B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04405C502222AE88008D276B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04405C522222AE88008D276B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04405C592222AF17008D276B /* JsonParsinData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonParsinData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		04405C452222AE85008D276B /* jsonParsing */ = {
 			isa = PBXGroup;
 			children = (
+				04405C582222AEF5008D276B /* Data */,
 				04405C462222AE85008D276B /* AppDelegate.swift */,
 				04405C482222AE85008D276B /* ViewController.swift */,
 				04405C4A2222AE85008D276B /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				04405C522222AE88008D276B /* Info.plist */,
 			);
 			path = jsonParsing;
+			sourceTree = "<group>";
+		};
+		04405C582222AEF5008D276B /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				04405C592222AF17008D276B /* JsonParsinData.swift */,
+			);
+			name = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04405C492222AE85008D276B /* ViewController.swift in Sources */,
+				04405C5A2222AF17008D276B /* JsonParsinData.swift in Sources */,
 				04405C472222AE85008D276B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
